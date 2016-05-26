@@ -1,0 +1,6 @@
+framework module Pods_PictureShow {
+  umbrella header "Pods-PictureShow-umbrella.h"
+
+  export *
+  module * { export * }
+}
