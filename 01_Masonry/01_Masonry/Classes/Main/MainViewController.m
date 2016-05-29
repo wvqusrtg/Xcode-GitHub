@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
 @interface MainViewController ()
 
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"主页";
     // Do any additional setup after loading the view.
+    //self.view.backgroundColor = [UIColor grayColor];
+    WS(ws);
+    //基础布局
+    UIView* sv = [UIView new];
+    [sv showPlaceHolder];
+    sv.backgroundColor = [UIColor redColor];
+    [self.view addSubview:sv];
+    [sv mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(ws.view);
+        make.size.mas_equalTo(CGSizeMake(300, 300));
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

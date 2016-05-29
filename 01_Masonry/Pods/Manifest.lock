@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Masonry (1.0.0)
+  - MMPlaceHolder (1.9)
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
@@ -22,13 +23,15 @@ PODS:
 DEPENDENCIES:
   - AFNetworking
   - Masonry
+  - MMPlaceHolder
   - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MMPlaceHolder: 40212b9dfe8760134b1b2fce3232f0d46200178f
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: 402c79ad8825bf77d1ad254a820b209f72ad4082
+PODFILE CHECKSUM: fe6a02854184c0b090d1a9afdc14e0a76546bdf9
 
 COCOAPODS: 1.0.0

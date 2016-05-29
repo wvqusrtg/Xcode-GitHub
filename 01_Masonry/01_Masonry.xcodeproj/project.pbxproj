@@ -218,7 +218,7 @@
 				TargetAttributes = {
 					8CA607BB1CFADC7A00CE74C1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = SJFH7WE6F4;
+						DevelopmentTeam = 27Z7NJ8WCX;
 					};
 					8CA607CE1CFADC7B00CE74C1 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -441,11 +441,13 @@
 			baseConfigurationReference = 7BB448905EE5F151833991D0 /* Pods-01_Masonry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/01_Masonry/Classes/PCH/PrefixHeader.pch";
 				INFOPLIST_FILE = 01_Masonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiainfo.-1-Masonry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7528ad78-5f00-47a1-9884-b8244e73de51";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
@@ -455,11 +457,13 @@
 			baseConfigurationReference = ACF4C2A25D5CFA96C7B947DA /* Pods-01_Masonry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/01_Masonry/Classes/PCH/PrefixHeader.pch";
 				INFOPLIST_FILE = 01_Masonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.asiainfo.-1-Masonry";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7528ad78-5f00-47a1-9884-b8244e73de51";
 				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
